@@ -230,3 +230,7 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      class main
      user root
      group system wakelock
+
+on boot
+    enable vendor.qcrild
+    enable vendor.qcrild2

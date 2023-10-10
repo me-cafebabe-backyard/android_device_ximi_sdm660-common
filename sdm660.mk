@@ -355,8 +355,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libprotobuf-cpp-full \
-    librmnetctl \
-    rild
+    librmnetctl
 
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5 \
