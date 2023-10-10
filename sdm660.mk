@@ -404,10 +404,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
 
 # Vibrator
-# TODO: QTI Vibrator AIDL
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl:64 \
-    android.hardware.vibrator@1.0-service
+    vendor.qti.hardware.vibrator.service
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
