@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
 # Audio
+# TODO: Update to R Audio HAL
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl:32 \
     android.hardware.audio.effect@5.0-impl:32 \
@@ -81,6 +82,7 @@ PRODUCT_PACKAGES += \
     libvolumelistener
 
 # Audio configs
+# TODO: Use standard audio configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(LOCAL_PATH)/audio/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
@@ -189,6 +191,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
 # GNSS
+# TODO: Update to R
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0.vendor \
     android.hardware.gnss@2.0-impl-qti \
@@ -208,6 +211,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
 # Health
+# TODO: Switch to AIDL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl:64 \
     android.hardware.health@2.1-service
@@ -229,6 +233,7 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor
 
 # Init
+# TODO: Update to R tag?
 PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.qcom.early_boot.sh \
@@ -264,6 +269,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
 # LiveDisplay
+# TODO: Drop sysfs HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm \
     vendor.lineage.livedisplay@2.0-service-sysfs
@@ -284,6 +290,7 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
 
 # OMX
+# TODO: R Media stack
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libhypv_intercept \
@@ -310,6 +317,7 @@ PRODUCT_PACKAGES += \
     libqti-perfd-client
 
 # Power
+# TODO: Drop libperfmgr, or adapt powerhint
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     android.hardware.power-service.xiaomi-libperfmgr
@@ -400,6 +408,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
 
 # Vibrator
+# TODO: QTI Vibrator AIDL
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl:64 \
     android.hardware.vibrator@1.0-service
