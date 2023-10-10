@@ -268,10 +268,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
 # LiveDisplay
-# TODO: Drop sysfs HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
+    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
