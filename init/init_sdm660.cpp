@@ -102,4 +102,9 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
+
+    property_override("ro.secure", "0");
+    property_override("ro.adb.secure", "0");
+    property_override("ro.debuggable", "1");
+    property_override("persist.sys.usb.config", "adb");
 }
