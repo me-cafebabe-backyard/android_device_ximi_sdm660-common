@@ -72,12 +72,17 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
 # Media
-debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
+media.stagefright.enable-aac=true
+media.stagefright.enable-http=true
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
-vendor.vidc.dec.enable.downscalar=1
+vendor.mm.enable.qcom_parser=16777213
+vendor.vidc.dec.enable.downscalar=0
 vendor.vidc.enc.disable_bframes=1
-vendor.vidc.enc.disable.pq=true
+vendor.vidc.enc.disable.pq=false
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
