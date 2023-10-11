@@ -98,9 +98,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
 # Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl:32 \
-    android.hardware.camera.provider@2.4-service
+#PRODUCT_PACKAGES += \
+#    android.hardware.camera.provider@2.4-impl:32 \
+#    android.hardware.camera.provider@2.4-service
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5:64 \
