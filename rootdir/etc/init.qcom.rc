@@ -539,7 +539,7 @@ service vendor.msm_irqbl_sdm630 /vendor/bin/msm_irqbalance -f /system/vendor/etc
     disabled
 
 on charger
-    setprop sys.usb.config adb
+    setprop persist.sys.usb.config mass_storage
     start qcom-post-boot
 
 on property:vendor.display.lcd_density=*
